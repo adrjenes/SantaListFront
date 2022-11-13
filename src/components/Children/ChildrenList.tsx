@@ -21,7 +21,7 @@ export const ChildrenList = () => {
     }
 
     return <>
-        <h1>Gifts</h1>
+        <h1>Children</h1>
         <ChildrenTable childrenList={data.childrenList} giftsList={data.giftsList}/>
     </>;
 };
